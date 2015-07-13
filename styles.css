@@ -1,0 +1,59 @@
+header {
+  font: 40px;
+  color: blue;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+}
+#JepTable {
+  font: 20px;
+  background-color: blue;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  empty-cells: show;
+  margin: auto;
+  border: 5px solid white;
+}
+
+#JepTable th {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  background-color: blue;
+  border-color: 3px white;
+  margin: 10px;
+  color: white;
+}
+
+#JepTable tr {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  background-color: blue;
+  margin: 10px;
+  border: 3px white;
+}
+
+#playerAccount {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Seaweed Script', cursive;
+  color: blue;
+  font: 60px;
+  padding-top: 30px;
+  border: 10px black;
+}
+
+#currentTotal {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  color: blue;
+  font: 40px;
+  padding: 10px;
+  margin: 5px;
+  border color: 10px black;
+}

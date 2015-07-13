@@ -1,0 +1,25 @@
+category 1: United Nature Calls
+	$200 - Q. What river flows through Washington, D.C.? A. The Potomac River
+	$400 - Q. What is the Northern most state in the U.S.A.? A. Alaska
+	$800 - Q. In what state is the only rainforst in the United States? A. 				Washington
+	$1000- Q. What historical path extends 440 miles from Mississippi to 					Nashville, TN? A. Natchez Trace
+
+category 2: Sports Authority 
+	$200 - Q. Which popular european men's sport is played by predominantely 				women in the United States? A. Field Hockey
+	$400 - Q. Who did Novak Djokavic defeat in this years Wimbledon final? 				A. Roger Federer 
+	$800 - Q. How many games is Tom Brady suspended for after being found 				guilty of Deflate-gate? A. Four
+	$1000- Q. Which NBA basketball team has won the most Championships? A. 				Boston Celtics
+
+category 3: Cinematic X-files
+	$200 - Q. Who phoned home in the Steven Spielbergs 80's alien hit? A. E.T.
+	$400 - Q. Which actor played a starring role in two major blockbuster alien 			movies from the 90s? A. Will Smith
+	$800 - Q. You know what the difference is between you and me? A. I made 				this look good
+	$1000- Q. What year was The X-Files movie released? A. 1998
+
+category 4: Smooth Oldies
+	$200 - Q. Which icon started out as the youngest member of his family band?
+			A. Michael Jackson
+	$400 - Q. Who was the lead singer of The Supremes?
+			A. Diana Ross
+	$800 - Q. The Four Tops, Marvin Gaye, and The Temptations were all part of 			this record company. A. Motown
+	$1000 - Q.Who sings "My Guy"? A. Mary Wells
