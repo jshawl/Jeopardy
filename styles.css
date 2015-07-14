@@ -41,7 +41,7 @@ body {
   font-family: 'Seaweed Script', cursive;
   color: white;
   margin-top: 10px;
-  border: 0px outset blue;
+  border: 0px outset white;
 }
 
 #currentTotal {
@@ -50,7 +50,7 @@ body {
   font-size: 30px;
   font-family: 'Nunito', sans-serif;
   color: white;
-  border color: 10px outset black;
+  border color: 0px outset white
 }
 .Alex {
   position: fixed;
