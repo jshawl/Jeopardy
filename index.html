@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
 <head>
+<link href='http://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
   <title>Jeopardy!</title>
   <header>Jeopardy!</header>
   <link rel="stylesheet" type="text/css" href="styles.css">
-<link href='http://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Seaweed+Script' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <table id = "JepTable">
@@ -17,6 +17,7 @@
         <th>Smooth Oldies</th>
       </tr>
     </thead>
+    <tbody>
       <tr>
         <th id="one200">$200</th>
         <th id="two200">$200</th>
@@ -43,8 +44,8 @@
       </tr>
     </tbody>
   </table>
-  <div id = "playerAccount">Your Total:</div>
-    <div id = "currentTotal">$0</div>
+  <div id = "playerAccount"></div>
+    <div id= "currentTotal">0</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
 <script src="script.js"></script>
