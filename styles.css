@@ -1,39 +1,36 @@
-html {
-  background-image: url();
-}
 header {
   font-size: 40px;
-  color: blue;
+  color: white;
   font-family: 'Nunito', sans-serif;
   text-align: center;
 }
-
 body {
+  background-image: url(buwzRS5.jpg);
+  background-size: cover;
   box-sizing: border-box;
 }
 #JepTable {
   empty-cells: show;
   margin: auto;
-  border: 5px outset black;
+  border: 5px outset #CCCCCC;
 }
 #JepTable thead {
   text-align: center;
   font-weight: bold;
   color: white;
   font-family: 'Nunito', sans-serif;
-  background-color: blue;
-  border: 10px outset black;
+  background-color: #3B5CBF;
+
 }
 #JepTable tbody {
   text-align: center;
   font-family: 'Nunito', sans-serif;
-  background-color: blue;
-  border: 10px outset black;
-  margin: 10px;
+  background-color: #3B5CBF;
+  padding: 25px;
   color: gold;
 }
 #JepTable th {
-  border: 3px outset blue;
+  border: 3px outset #3B5CBF;
   margin: 6px;
 }
 #playerAccount  {
@@ -42,7 +39,7 @@ body {
   font-weight: bold;
   font-size: 30px;
   font-family: 'Seaweed Script', cursive;
-  color: blue;
+  color: white;
   margin-top: 10px;
   border: 0px outset blue;
 }
@@ -52,6 +49,11 @@ body {
   font-weight: bold;
   font-size: 30px;
   font-family: 'Nunito', sans-serif;
-  color: blue;
+  color: white;
   border color: 10px outset black;
+}
+.Alex {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }

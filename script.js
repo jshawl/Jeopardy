@@ -22,6 +22,7 @@ one200[0].addEventListener("click", function(){
       $("#currentTotal").text("$" + currentTotal);
       alert("Sorry, " + name + ", that's not correct.");
   }
+  $("#one200").hide();
 })
 //Question 2
 var one400 = $("#one400");
@@ -43,16 +44,16 @@ one400[0].addEventListener("click", function(){
 //Question 3
 var one800 = $("#one800");
 one800[0].addEventListener("click", function(){
-  var answer = prompt("In what state is the only rainforst in the United States?");
+  var answer = prompt("**DAILY DOUBLE!!** In what state is the only rainforst in the United States?");
     if (answer === "Washington"){
-      var questionValue = 800;
+      var questionValue = 1600;
       currentTotal+= questionValue;
       $("#currentTotal").text("$" + currentTotal);
       alert("Correct!");
     }
     else {
-      var questionValue = 800;
-      currentTotal -= 800;
+      var questionValue = 1600;
+      currentTotal -= 1600;
       $("#currentTotal").text("$" + currentTotal);
       alert("Sorry, " + name + ", that's not correct.");
     }
@@ -198,15 +199,15 @@ three800[0].addEventListener("click", function(){
 //Question 4
 var three1000 = $("#three1000");
 three1000[0].addEventListener("click", function(){
-  var answer = prompt("What year was The X-Files movie released?");
+  var answer = prompt("**DAILY DOUBLE** What year was The X-Files movie released?");
     if (answer === "1998"){
-      var questionValue = 1000;
+      var questionValue = 2000;
       currentTotal += questionValue;
       $("#currentTotal").text("$" + currentTotal);
       alert("Correct!");
     }
     else {
-      var questionValue = 1000;
+      var questionValue = 2000;
       currentTotal -= questionValue;
       $("#currentTotal").text("$" + currentTotal);
       alert("Sorry, " + name + ", that's not correct.");
@@ -229,6 +230,7 @@ four200[0].addEventListener("click", function(){
       $("#currentTotal").text("$" + currentTotal);
       alert("Sorry, " + name + ", that's not correct.");
     }
+  $("#four200").hide();
 })
 //Question 2
 var four400 = $("#four400");

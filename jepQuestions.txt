@@ -4,9 +4,9 @@ category 1: United Nature Calls
 	$800 - Q. In what state is the only rainforst in the United States? A. 				Washington
 	$1000- Q. What historical path extends 440 miles from Mississippi to 					Nashville, TN? A. Natchez Trace
 
-category 2: Sports Authority 
+category 2: Sports Authority
 	$200 - Q. Which popular european men's sport is played by predominantely 				women in the United States? A. Field Hockey
-	$400 - Q. Who did Novak Djokavic defeat in this years Wimbledon final? 				A. Roger Federer 
+	$400 - Q. Who did Novak Djokavic defeat in this years Wimbledon final? 				A. Roger Federer
 	$800 - Q. How many games is Tom Brady suspended for after being found 				guilty of Deflate-gate? A. Four
 	$1000- Q. Which NBA basketball team has won the most Championships? A. 				Boston Celtics
 
