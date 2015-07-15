@@ -205,7 +205,7 @@ three800[0].addEventListener("click", function(){
       $("#currentTotal").text("$" + currentTotal);
       alert("Sorry, " + name + ", that's not correct.");
     }
-    $("#three800").text("");
+    $("#three800").text(" ");
 })
 //Question 4
 var three1000 = $("#three1000");
