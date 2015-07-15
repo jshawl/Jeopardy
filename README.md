@@ -1,10 +1,9 @@
 # Jeopardy
-Pseudocode:
 
-<!-- 1. Prompt a welcome note to the player and explain the game -->
-<!-- 2. Ask the player to submit their first name -->
-<!-- 3. Display the submitted name on the scoreboard -->
-<!-- 4. Prompt the player to select their first question by clicking on a box -->
+1. Prompt a welcome note to the player and explain the game -->
+2. Ask the player to submit their first name
+3. Display the submitted name on the scoreboard
+4. Prompt the player to select their first question by clicking on a box
 5. The selected box will prompt a question
     -The player must type in the answer and submit
 6. If the answer is correct, their scoreboard will increase by the ? amount
@@ -13,7 +12,7 @@ Pseudocode:
 
 
 
-Jeopardy:
+Jeopardy User Stories:
 
 1. User will have 4 trivia categories to choose from
 2. The user may select a category value ($200-$1000) every turn
