@@ -1,7 +1,7 @@
 header {
   font-size: 40px;
   color: white;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif; /* excellent providing a fallback font! */
   text-align: center;
 }
 body {
@@ -19,6 +19,8 @@ body {
   font-weight: bold;
   color: white;
   font-family: 'Nunito', sans-serif;
+  /* Can you think of a way to talk about all the Nunito elements vs the Seaweed elements? i.e. what do they have in common?
+   * Noticing some repetition here w/ fonts. */
   background-color: #3B5CBF;
 
 }
@@ -54,3 +56,5 @@ body {
 .Alex {
   position: fixed;
 }
+
+/* I also recommend using classes instead of ids when styling. This will help your DRY up and reuse your code. */

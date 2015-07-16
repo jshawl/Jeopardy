@@ -1,9 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function(){ //not needed here because script is before the closing body tag
 var currentTotal = 0
 var playerAccount = $("#playerAccount")
 var name = prompt("Hello! Please enter your name");
   playerAccount = playerAccount.html(name);
   alert("You have entered the game of Jeopardy! Please start the game by selecting any box on the board. Might we suggest starting with a category you feel strongest in? Good Luck! The game ends when you've answered all questions on the board.")
+  // some people have all popups disabled. Can you think of a way to display this information on the page instead of in an alert box?
 
 //Category 1: United Nature Calls
 //Question 1
@@ -23,15 +24,20 @@ one200[0].addEventListener("click", function(){
       alert("Sorry, " + name + ", that's not correct.");
     }
    $("#one200").text("");
+   // This code looks perfect! but...
+   // If you ever want to change out the questions or their answers,
+   // you'll have to dig into this JS file to make updates.
+   // Additionally, there is a lot of repeated code here. Can you think of a way to handle
+   // the click events dynamically? without having to hardcode the selectors and repeating the event listeners?
 })
 //Question 2
 var one400 = $("#one400");
 one400[0].addEventListener("click", function(){
   var answer = prompt("What is the Northern most state in the U.S.A.?");
-    if (answer === "Alaska"){
+    if (answer === "Alaska"){ // I recommend downcasing the user's answer and actual answer to ignore case when checking.
       var questionValue = 400;
       currentTotal += questionValue;
-      $("#currentTotal").text("$" + currentTotal);
+      $("#currentTotal").text("$" + currentTotal); // When selecting elements, save them to a variable so you don't have to keep querying the DOM.
       alert("Correct!");
     }
     else {
@@ -47,6 +53,7 @@ one400[0].addEventListener("click", function(){
 var one800 = $("#one800");
 one800[0].addEventListener("click", function(){
   var answer = prompt("**DAILY DOUBLE!!** In what state is the only rainforst in the United States?");
+  // ^^ by dynamically creating questions - you could mix up which question is the daily double!
     if (answer === "Washington"){
       var questionValue = 1600;
       currentTotal+= questionValue;
@@ -299,3 +306,11 @@ four1000[0].addEventListener("click", function(){
     $("#four1000").text("");
 })
 })
+
+// Overall:
+// You did a nice job on this assignment! There is a lot of repeated code, and I recommend thinking about
+// how you can share functionality between each of the questions without relying on anonymous functions
+// and hardcoded selectors. i.e. what if you wanted to add more questions? You would have to update the HTML
+// as well as the JS.
+// Also, the `prompt` and `alert` work well here, though I think your application could greatly improve by
+// moving these messages to display them in the DOM.
